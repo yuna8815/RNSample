@@ -13,7 +13,6 @@ function Movies({id, title, releaseYear}: Movie): JSX.Element {
 
   return (
     <View
-      key={id}
       style={styles.sectionContainer}>
       <Text
         style={[
